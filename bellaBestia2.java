@@ -25,7 +25,7 @@ public class bellaBestia2 {
 
         String clave;
 
-        do { 
+        do{ 
             System.out.print("Introduce la clave para comenzar: ");
             clave = sc.nextLine();
             if(!clave.equals("jugones")){
@@ -63,6 +63,8 @@ public class bellaBestia2 {
         int vidaEnemigo = 0;
         int eleccion = 0;
         int turno = 0;
+        int finalesContador = 0;
+        boolean terminar = false;
 
         //---Cargar datos del jugador---
 
@@ -85,7 +87,9 @@ public class bellaBestia2 {
         }
 
         //---Historia según el personaje elegido---
-        
 
+        switch (personaje){
+            fn
+        }
     }
 }
