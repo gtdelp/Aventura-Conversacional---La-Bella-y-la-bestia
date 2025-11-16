@@ -120,6 +120,7 @@ public class bellaBestia2 {
             while(!terminar){
                 System.out.println("Decide que quieres hacer");
             }
+            hola
         }
     }
 }
