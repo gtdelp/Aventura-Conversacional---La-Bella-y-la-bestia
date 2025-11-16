@@ -88,8 +88,13 @@ public class bellaBestia2 {
 
         //---Historia según el personaje elegido---
 
-        switch (personaje){
-            aaaaa
+
+        //--Camino BELLA---
+
+        if(personaje == 1){
+            System.out.println("CAPÍTULO 1: Bella despierta en una habitación desconocida.");
+            System.out.println("Sientes el frío y el eco de un gran castillo. Debes decidir cómo actuar.\n");
+
         }
     }
 }
