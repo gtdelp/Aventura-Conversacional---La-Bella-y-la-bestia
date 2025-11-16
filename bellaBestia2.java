@@ -86,8 +86,30 @@ public class bellaBestia2 {
                 break;
         }
 
-        //---Historia según el personaje elegido---
+        //---HISTORIA SEGÚN PERSONAJE ELEGIDO---
 
+        // Variables adicionales para el progreso
+        int petalosRestantes = 5; // la rosa
+        boolean tieneLlave = false;
+        boolean confiaBestia = false;
+        boolean puebloEnfurecido = false;
+        int pistasConseguidas = 0;
+        int juegosGanados = 0;
+        int intentosAdivinar = 0;
+
+        // Variables para las mecánicas de puzzles
+        int secretoAdivinar = rand.nextInt(20) + 1; // para adivinar numero
+        int rondasRps = 0; // para piedra papel tijeras
+        int victoriasRps = 0;
+
+        // Guardar algunos estados de PNJ
+        boolean lumiereAmigo = false;
+        boolean dingDongAmigo = false;
+        boolean brujaHostil = true;
+        boolean leFouConfiable = false;
+
+        // Contador de acciones (para crear eventos)
+        int acciones = 0;
 
         //--Camino BELLA---
 
@@ -95,6 +117,9 @@ public class bellaBestia2 {
             System.out.println("CAPÍTULO 1: Bella despierta en una habitación desconocida.");
             System.out.println("Sientes el frío y el eco de un gran castillo. Debes decidir cómo actuar.\n");
 
+            while(!terminar){
+                System.out.println("Decide que quieres hacer");
+            }
         }
     }
 }
