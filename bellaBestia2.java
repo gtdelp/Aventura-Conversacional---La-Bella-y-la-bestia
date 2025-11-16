@@ -121,5 +121,7 @@ public class bellaBestia2 {
                 System.out.println("Decide que quieres hacer");
             }
         }
+
+        if
     }
 }
